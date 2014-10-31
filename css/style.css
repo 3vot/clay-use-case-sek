@@ -22,6 +22,14 @@ h1,h2,h3,h4,h5,h6,
   font-weight: 300;
 }
 
+a {
+  text-decoration: none;
+  background-color: #fff;
+  color: #EA6F5F;
+  border-radius: 6px;
+  padding: .5em .8em;
+  font-weight: 400;
+}
 
 .text-clay {
   color: #EA6F5F;
@@ -73,8 +81,8 @@ Social Section
  
 .social-feed {
     width: 140em;
-    padding: 1.5em 0 0 8em;
-    height: 11em;
+    padding: 1.5em 0 0 0;
+    height: auto;
     white-space: nowrap;
 }
 
@@ -266,13 +274,13 @@ Social Section
   color: #fff;
   text-align: left;
   font-size: 4vh;
-  padding: 3em 2vh 0 7vh;
+  padding: 2em 2vh 0 7vh;
   margin: 0;
   width: 31%;
   display: inline-block;
   float: left;
   vertical-align: middle;
-  height: 72%;
+  height: 85%;
   position: relative;
 }
 .hour .clock {
@@ -286,7 +294,7 @@ Social Section
   display: inline-block;
   vertical-align: middle;
   position: absolute;
-  top: 8.8vh;
+  top: 1.2em;
   left: 3%;
   opacity: .5;
 }
@@ -441,8 +449,32 @@ transform: scale(.8) translateX(200px);
   
 }
 
+
+.scroll-side h2 {
+  margin: 0;
+}
+
 .scroll-side img {
   max-width: 156%;
+}
+
+.scroll-side .links {
+  position: absolute;
+  right: 1em;
+  bottom: 1em;
+  border-radius: 6px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.1);
+  box-shadow: 0 2px 2px rgba(0,0,0,.1);
+}
+
+.scroll-side .links a{
+  display: block;
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: 600;
+  border-radius: 0;
+  border-bottom: 1px solid #ddd
 }
 
 /*--------------
