@@ -1,7 +1,7 @@
 var fs = require("fs")
 
 var insertCss = require("insert-css");
-var css = fs.readFileSync( __dirname + "/assets/style.css" )
+var css = fs.readFileSync( __dirname + "/css/style.css" )
 insertCss(css);
 
 var Layout = fs.readFileSync( __dirname + "/code/views/layout.html" )
