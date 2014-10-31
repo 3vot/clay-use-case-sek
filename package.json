@@ -1,9 +1,9 @@
 {
 	"name": "usecase-sek",
 	"description": "",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"threevot": {
-		"version": "6",
+		"version": "7",
 		"screens": {
 			"0-480": "mobileindex",
 			"480-768": "mobileindex",
